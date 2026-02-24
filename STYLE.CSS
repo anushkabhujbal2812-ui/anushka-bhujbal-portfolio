@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
+}
+
+body {
+    background: #f5f7fb;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background: linear-gradient(135deg, #4f46e5, #6366f1);
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+header p {
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.contact span {
+    display: inline-block;
+    margin: 8px 12px;
+    font-size: 14px;
+}
+
+.section {
+    padding: 30px 10%;
+}
+
+.section h2 {
+    color: #4f46e5;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #ddd;
+    display: inline-block;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skills li {
+    list-style: none;
+    background: #e0e7ff;
+    color: #3730a3;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+ul li {
+    margin-left: 18px;
+    margin-bottom: 6px;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #111827;
+    color: #fff;
+    font-size: 14px;
+}
